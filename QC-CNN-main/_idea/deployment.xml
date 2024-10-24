@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="ztx@10.11.52.168:22 password" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+    <option name="confirmBeforeUploading" value="false" />
+    <serverData>
+      <paths name="ztx@10.11.52.168:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/home/ztx/QC-CNN-main" local="$PROJECT_DIR$" web="" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="ztx@10.11.52.168:22 password (1)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/home/ztx/QC-CNN-main" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
