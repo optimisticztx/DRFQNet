@@ -34,11 +34,11 @@ prefix1 = 'inception--default.qubit.torch--best(delete)'
 # prefix1 = 'inception--default.qubit.torch--best(50 epochs Adagrad lr 0.5 without quantum layer)'
 # prefix4 = 'single_encoding--'
 
-epochs = 20
+epochs = 200
 bs = 32
 
 criterion = nn.CrossEntropyLoss()  # loss function
-optimizer1 = torch.optim.Adagrad(net1.parameters(), lr=0.5)  # optimizer
+optimizer1 = torch.optim.Adagrad(net1.parameters(), lr=0.02)  # optimizer
 # optimizer1 = torch.optim.Adam(net1.parameters(), lr=0.02)  # optimizer
 # optimizer2 = torch.optim.Adagrad(net2.parameters(), lr=0.5)  # optimizer
 # optimizer3 = torch.optim.Adagrad(net3.parameters(), lr=0.5)  # optimizer
